@@ -9,48 +9,37 @@ body {
   background: #FFF;
   border: 0px;
   color: #005FAC;
-  text-align: center;
+  text-align: right;
   font-size: 20px;
   font-weight: 600;
-  width: 160px;
-  height: 64px;
-  margin-left: 400px;
+  padding: 17px;
 }
 
 /* header related styles */
 .head {
   background-image: url('../Images/banner/banner3.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 100% 100%;
-  width: 1600px;
-  height: 808px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
+
 }
 
-.head {
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-}
-
-/* banner related styles */
 .banner {
-  padding: 190px 200px 120px 845px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 216px 230px 186px 845px;
 }
 
 .banner-term {
+
   color: #FFF;
   text-align: right;
   font-size: 65px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
 .banner-des {
@@ -58,6 +47,42 @@ body {
   text-align: right;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
-  margin-bottom: 40px;
 }
+
+.btn-prime {
+  margin-left: 450px;
+}
+
+/* main related styles */
+.my-failure {
+  display: flex;
+  align-items: center;
+  margin: 140px 322px 129px 228px;
+}
+
+.my-failure-img {
+  margin-right: 134px;
+}
+
+.failure-title {
+  /* My failures of previous year width: 288px; */
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.failure-content {
+  color: #44434;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.li-crack {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.li-new{
+  margin-bottom: 8px;
+}
+/* my plan related sec */
