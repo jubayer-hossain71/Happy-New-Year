@@ -72,7 +72,8 @@ body {
 }
 
 .failure-content {
-  color: #44434;
+
+  color: #444343;
   font-size: 16px;
   font-weight: 400;
 }
@@ -82,7 +83,53 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-.li-new{
+
+.li-new {
   margin-bottom: 8px;
 }
+
 /* my plan related sec */
+.no-way {
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-title {
+  margin: 210px 656px 50px 650px;
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#plan-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ig-ab {
+  margin-left: 50px;
+}
+
+.lock-paf {
+  margin-left: 75px;
+}
+
+.skill {
+  margin: 40px;
+}
+
+.skill-tite {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.skill-dep {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
