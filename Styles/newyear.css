@@ -23,6 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;
 
 
 }
@@ -31,7 +32,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin: 216px 230px 186px 845px;
+  padding: 216px 230px 186px 845px;
 }
 
 .banner-term {
@@ -132,4 +133,18 @@ body {
   text-align: center;
   font-size: 25px;
   font-weight: 500;
+}
+
+/* watch-sect related styles */
+.watch-sec {
+  margin: 130px 230px;
+  border-radius: 8px;
+  /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%); */
+}
+
+.oloyu {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 59px 617px 147px 64px;
 }
